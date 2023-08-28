@@ -49,8 +49,6 @@ document.addEventListener("DOMContentLoaded", function () {
         const url = card.getAttribute("data-url");
         modal.classList.add("modal");
         modal.style.backgroundImage = `url('${url}')`;
-        modal.style.backgroundRepeat = "no-repeat";
-        modal.style.backgroundPosition = "center";
       });
     }
   });
