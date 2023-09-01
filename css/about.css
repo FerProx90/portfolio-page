@@ -46,9 +46,10 @@
 }
 
 .about_fig img {
-  object-fit: cover;
-  width: 90%;
-  height: 90%;
+  background-color: var(--footer-text);
+  object-fit: contain;
+  width: 230px;
+  height: 230px;
   max-width: 268px;
   max-height: 268px;
 
@@ -84,6 +85,7 @@
   }
 
   .about_fig img {
+    object-fit: cover;
     width: 140px;
     height: 140px;
   }
